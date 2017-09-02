@@ -1,0 +1,19 @@
+.App {
+	text-align: center;
+}
+
+.rtr-rating > li {
+	font-size: 17px;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.rtr-rating > li i.readonly {
+	cursor: not-allowed;
+}
+
+.rtr-rating > li .active {
+	color: #FFD700;
+}

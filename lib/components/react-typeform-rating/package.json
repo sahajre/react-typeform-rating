@@ -1,0 +1,5 @@
+{
+ "private": true,
+ "name": "react-typeform-rating",
+ "main": "./react-typeform-rating.js"
+}

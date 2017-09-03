@@ -17,3 +17,50 @@
 .rtr-rating > li .active {
 	color: #FFD700;
 }
+
+/* Flash class and keyframe animation */
+.rtr-flash {
+	-webkit-animation: flash linear 0.4s;
+	animation: flash linear 0.4s;
+}
+
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+  25% { opacity: 0.4; } 
+	50% { opacity: 1; } 
+	75% { opacity: 0.4; }
+  100% { opacity: 1; } 
+}
+
+@keyframes flash {
+	0% { opacity: 1; } 
+  25% { opacity: .1; } 
+	50% { opacity: 1; } 
+	75% { opacity: .1; }
+  100% { opacity: 1; } 
+}
+
+.rtr-key-box{
+    vertical-align: top;
+    zoom: 1;
+    width: 16px;
+    padding: 0;
+    height: 17px;
+    font-size: 12px;
+    line-height: 19px;
+    border: 1px solid rgba(63,63,63,0.8);
+    background: rgba(63,63,63,0.2);
+    margin-right: 7px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+		text-align: center;
+		margin: 0 auto;
+}
+
+.rtr-key-box:empty {
+  display: none;
+}
+

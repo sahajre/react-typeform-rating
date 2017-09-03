@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import TypeformRating from 'components/react-typeform-rating'
+import keydown from 'react-keydown'
 
 class App extends Component {
 
@@ -19,19 +20,19 @@ class App extends Component {
 		const { keydown: { event } } = nextProps;
 		if ( event ) {
 			console.log("event.which " + event.which);
-			//if(event.which >= 49) {
-			this.setState({"name1": {key: event.which}});
-			//} 
+			if(event.which >= 49 && event.which <= 58) {
+				this.setState({"name1": {key: event.which}});
+			} 
 		}
 	}
 
 	render() {
 		return (
 			<div className="App">
-			<h3>How would you rate your reaction to ...?</h3>
+			<h3 className="rtr-flash">1. How would you rate your reaction to ...?</h3>
 			<TypeformRating 
 				name="name1" 
-				value={1}
+				value={0}
 				starCount={5} 
 				onChange={this.onChange}
 				halfStarSelection={false}
@@ -47,4 +48,4 @@ class App extends Component {
 	}
 }
 
-export default App;
+export default keydown(App);

@@ -1,7 +1,7 @@
 {
-  "name": "create-react-library",
-  "version": "1.0.0",
-  "description": "React NPM library starter kit based on Facebook's create react app",
+  "name": "react-typeform-rating",
+  "version": "0.1.1",
+  "description": "React component for Typeform like rating",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rubbby/create-react-library.git"
+    "url": "git+https://github.com/sahajRe/react-typeform-rating.git"
   },
-  "author": "Dimitri Mikadze <dimitri@rubbby.com>",
+  "author": "Rahul Upakare <rahulu@gmail.com>",
   "bugs": {
-    "url": "https://github.com/rubbby/create-react-library/issues"
+    "url": "https://github.com/sahajRe/react-typeform-rating/issues"
   },
-  "homepage": "https://github.com/rubbby/create-react-library#readme",
+  "homepage": "https://github.com/sahajRe/react-typeform-rating#readme",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "7.1.2",
@@ -55,6 +55,7 @@
     "react-dev-utils": "^3.1.0",
     "react-dom": "^15.6.1",
     "react-error-overlay": "^1.0.10",
+    "react-keydown": "^1.9.4",
     "sass-loader": "^6.0.6",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.4",

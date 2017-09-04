@@ -1,8 +1,4 @@
-import Example from './components/Example';
-import SecondExample from './components/SecondExample';
+import TypeformRating from './components/TypeformRating';
 
-export default Example;
-export {
-  SecondExample
-};
+export default TypeformRating;
 

@@ -29,7 +29,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-			<h3 className="rtr-flash">1. How would you rate your reaction to ...?</h3>
+			<h3>1. How would you rate your reaction to ...?</h3>
 			<TypeformRating 
 				name="name1" 
 				value={0}

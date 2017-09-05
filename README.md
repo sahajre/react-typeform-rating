@@ -6,7 +6,7 @@ Typeform like rating component (unofficial).
 Clone repo
 
 ````
-git clone https://github.com/rubbby/create-react-library.git
+git clone https://github.com/sahajRe/react-typeform-rating.git
 ````
 
 Install dependencies

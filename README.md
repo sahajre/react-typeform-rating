@@ -1,19 +1,19 @@
 # react-typeform-rating
 Typeform like rating component (unofficial).
 
-## Try demo 
+## Try demo
 
-Clone repo
+1. Clone repo
 
 ````
 git clone https://github.com/sahajRe/react-typeform-rating.git
 ````
 
-Install dependencies
+2. Install dependencies
 
 `npm install` or `yarn install`
 
-Start development server
+3. Start development server
 
 `npm start` or `yarn start`
 
@@ -32,7 +32,7 @@ If you are using font awesome, like I do in the demo, you can copy related files
 
 Usage:
 ````
-<TypeformRating 
+<TypeformRating
     name="name1"   // mandatory, string
     starCount={5}  // mandatory, number of starts, number, default 5
     value={0}      // initial value for stars, number, default 0
